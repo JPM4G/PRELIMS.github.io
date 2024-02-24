@@ -5,10 +5,12 @@
 		article{
 			max-width: 600px;
 			margin: 0 auto;
-			padding: 80px 80px 90px;
+			padding: 80px 80px 60px;
 			border-style: solid;
 			border-width: 1px;
 			border-color: rgba(200, 200, 200, 1);
+			font-family: monospace;
+			font-size: 15px;
 		}
 		img{
 			position: absolute;
@@ -20,6 +22,25 @@
 		}
 		h4{
 			text-align: center;
+			margin-bottom: 5px;
+		}
+		.desc{
+			text-align: justify;
+		}
+		table{
+			width: 100%;
+			border-collapse: collapse;
+			font-size: 13px;
+		}
+		ol>li::marker{
+			font-weight: bold;
+		}
+		h5{
+			text-align:center;
+		}
+		.background{
+			line-height: 130%;
+			margin-left: 5%;
 		}
 	</style>
 </head>
@@ -30,14 +51,78 @@
 	</head>
 	<body>
 		<article>
-			<p><b>MAGDARAOG, JOHN PAUL C.</b><br /><img src="C:/Users/JohnPaul/OneDrive/Pictures/2x2_Picture.jpg">
-			Tagas, Daraga City, Albay<br />
-			Email Add.: jpmagdaraog123@gmail.com<br />
+			<p><b>MAGDARAOG, JOHN PAUL C.</b><br /><img src="HTML files/2x2_Picture.jpg">
+			Naga City, Camarines Sur<br />
+			Email Add.: jmagdaraog@gbox.adnu.edu.ph<br />
 			Contact Number: 09299684080<br /><p>
-			<br /><br /><br /><br /><br /><br /><br />
-			<h4>Career Objective</h4>
-			<hr>
-			<p></p>
+			<br /><br /><br /><br />
+			
+				<h4><i>Career Objective</i></h4>
+				
+			<hr style="color:lightgray">
+			<div class="desc">
+				<p>&emsp;&emsp;&emsp;I hope to become an electronic engineer. With a basic grasp of computer hardware components, 
+				I hope to learn more about the electronics of technology used in our culture. I plan to apply this information 
+				to improve our technology so that it is more efficient and comfortable to use.</p>
+			</div>
+			<br />
+			
+				<h4><i>Basic Information</i></h4>
+				
+			<hr style="color:lightgray">
+			<table>
+				<tr>
+					<td><ul><li><b>Age</b>: 18</li></ul></td>
+					<td><ul><li><b>Date of Birth</b>: September 24, 2003</li></ul></td>
+					<td><ul><li><b>Nationality</b>: Filipino</li></ul></td>
+				</tr>
+				<tr>
+					<td><ul><li><b>Gender</b>: Male</li></ul></td>
+					<td><ul><li><b>Height</b>: 5'1</li></ul></td>
+					<td><ul><li><b>Civil Status</b>: Single</li></ul></td>
+				</tr>		
+			</table>
+			<br />
+			
+				<h4><i>Skills</i></h4>
+				
+			<hr style="color:lightgray">
+			<ol style="line-height: 150%; list-style-type: upper-roman; margin-left: 5%;">
+				<li>Knowledge of basic computer hardware components</li>
+				<li>Hardworking</li>
+				<li>Critical Thinker</li>
+				<li>Resourceful</li>
+				<li>Efficient</li>
+			</ol>
+			<br />
+			
+				<h4><i>Educational Background</i></h4>
+				
+			<hr style="color:lightgray">
+				<h5>Secondary Level</h5>
+			<div class="background">
+				<p>	<b>School</b>: (SHS) University of Santo-Tomas Legazpi<br />
+					<b>Year</b>: 2020-2022<br />
+					<b>Address</b>: Rawis, Legazpi City, Albay<br />
+					<b>Awards Received</b>: Merit and Honor (Gr.11)<br />
+					<br />
+					<b>School</b>: (JHS) University of Santo-Tomas Legazpi<br />
+					<b>Year</b>: 2016-2020<br />
+					<b>Address</b>: Rawis, Legazpi City, Albay<br />
+					<b>Awards Received</b>: Merit (Gr.10)<br />
+				</p>
+			</div>
+				<h5>Primary Level</h5>
+			<div class="background">
+				<p>	<b>School</b>: BUDFI<br />
+					<b>Year</b>: 2010-2016<br />
+					<b>Address</b>: Legazpi City, Albay<br />
+					<b>Awards Received</b>: N/A<br />
+				</p>
+			</div>
+			<br />
+			
+				<h4>END</h4>
 		</article>
 	</body>
 </html>
