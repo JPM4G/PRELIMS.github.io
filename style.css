@@ -1,0 +1,40 @@
+article{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 80px 80px 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(200, 200, 200, 1);
+    font-family: monospace;
+    font-size: 15px;
+}
+img{
+    position: absolute;
+    right: 450px;
+    top: 60px;
+    width: 200px;
+    border-style: dashed;
+    border-width: 2px;
+}
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.desc{
+    text-align: justify;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+ol>li::marker{
+    font-weight: bold;
+}
+h5{
+    text-align:center;
+}
+.background{
+    line-height: 130%;
+    margin-left: 5%;
+}
